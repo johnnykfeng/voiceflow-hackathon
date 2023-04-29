@@ -1,0 +1,51 @@
+DATA ANALYST - IT
+
+
+THE JOB
+Reporting to the CIO, the Data Analyst will be responsible for interpreting complex data sets, analyzing trends, and providing actionable insights to support business decisions. The ideal candidate will have a strong analytical mindset and be able to work collaboratively with cross-functional teams.
+
+HOURS OF WORK: Monday to Friday, 8:00AM – 5:00PM
+
+
+DUTIES & RESPONSIBILITIES
+
+Gather and analyze large data sets to identify patterns, trends, and insights
+Develop and maintain dashboards, reports, and metrics to track key performance indicators (KPIs)
+Collaborate with cross-functional teams to identify business problems and develop data-driven solutions
+Work with business stakeholders to understand data requirements and design data models to ensure data accuracy and consistency
+Design and implement data quality and governance processes
+Develop and maintain data pipelines using Microsoft Azure technologies, including Azure Data Factory, Azure Data Lake, and Azure Databricks
+Conduct ad-hoc analysis to support business initiatives and answer complex questions
+Communicate findings and insights to stakeholders through clear and compelling data visualizations and presentations
+Continuously monitor and evaluate data quality to ensure data integrity
+Stay up-to-date with industry trends and best practices to identify new opportunities for analysis and optimization
+
+KNOWLEDGE & SKILLS REQUIRED
+
+Bachelor's degree in Mathematics, Statistics, Computer Science, or related field
+2+ years of experience in data analysis or related field
+Strong analytical skills with experience using statistical analysis tools such as Python, R, or SAS
+Strong SQL skills and experience with database design and development
+Experience with Azure Data Factory, Azure Data Lake, and Azure Databricks
+Experience in data visualization and reporting tools such as Power BI or Tableau
+Strong communication skills and ability to collaborate with cross-functional teams
+Ability to manage multiple projects and priorities in a fast-paced environment
+Detail-oriented with strong problem-solving skills
+Experience with machine learning and predictive analytics
+Knowledge of data warehousing and ETL processes
+
+THE COMPANY
+Weston Forest originated as a family business in 1953. Today we are a vital, dynamic organization, repeatedly recognized by Deloitte as one of Canada’s Best Managed Companies, recipient of the Canadian Business Excellence Awards for Private Businesses, and winner of Waterstone Canada’s Most Admired Corporate Cultures Award. Weston Forest is certified as a Great Place to Work®!
+Our culture is one of personal growth, continuous improvement, and opportunity. It is vibrant, informal, and inclusive. We live by our brand promise: “YOU’LL LOVE DOING BUSINESS WITH US”.
+
+
+Our Core Values:
+
+Entrepreneurial organization committed to continuous improvement
+We do what we say
+Inspiring personal and professional growth
+Your success is our success
+More than just a place to work
+Results matter, but people matter more
+
+Weston Forest is committed to an inclusive, barrier-free recruitment process and work environment. Please advise Human Resources of any accommodations that are required. Any information regarding accommodation will be treated as confidential.
