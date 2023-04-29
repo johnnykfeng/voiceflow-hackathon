@@ -1,0 +1,44 @@
+John Feng
+Toronto, ON, Canada • johnfengphd@gmail.com • + 1 (647) 716-7981
+LinkedIn: https://www.linkedin.com/in/john-feng-5735321b8/ • Website: https://johnnykfeng.github.io/
+Concepts: Time Series Analysis, Deep Learning, NLP, Statistical Modeling, Regression, Clustering, Classification, Data Visualization
+Python libraries: Pandas, Numpy, Scipy, Tensorflow, Keras, PyTorch, Scikit-learn, SQLAlchemy, SpaCy, NLTK, PySpark, Flask	Visualization: Tableau, Powerpoint, Python: Plotly, Matplotlib, Seaborn
+Other tools: Git, AWS cloud, Docker, SQL
+
+
+EDUCATION
+UNIVERSITY OF TORONTO	Toronto, ON
+PhD in Physics	completed Dec 2022
+❖	Van Kronecker Teaching Assistant Award (2020-2021)
+❖	3-minute thesis University of Toronto finalist (2017, 2018)
+Masters of Science, Physics	2014-2015
+Bachelors of Science (Honours) - Physics specialist, Human Biology major	2008-2013
+
+RELEVANT EXPERIENCE
+
+MACHINE LEARNING ENGINEER CONSULTANT (CONTRACT), BRANCHY SOLUTION	DEC 2022- PRESENT
+●	Led research on the latest ML tools for table extraction
+●	Created ML product that detects and extracts table information from documents with transformer-based object detection (DETR) - https://johnnykfeng-table-extractor-app-table-extractor-app-gwkxr3.streamlit.app/
+●	Help clients save thousands of hours in manual labor by automating table extraction
+RESEARCH ASSISTANT, UNIVERSITY OF TORONTO	   2015-2022
+●	Processed and cleaned raw data from ultrafast electron diffraction experiments via SQL and Python
+●	Found novel insights in data to convey the scientific findings of our experiment
+●	Prepared detailed data visualizations with Python for publication in a scientific journal
+●	Wrote a comprehensive report on my experiment, data processing steps, and analysis for publication
+●	Presented my research to both public and technical audience on various occasions, e.g. global scientific conferences, local university committee of professors, public speaking competitions
+●	Led a large-scale project involving multiple collaborators across the world (details written in my thesis)
+
+RELEVANT DATA SCIENCE PROJECTS
+
+MODELING CHURN AND REVENUE FOR RIDE-HAILING SERVICE (REPORT)	
+●	Built a Monte-Carlo simulation based on the statistical Poisson process to model the churn and revenue of a ride-hailing service. My simulations project the earnings and profit of the company for a 1-12 month period. I also proposed strategies for maximizing short and long-term profits based on this analysis.
+TOXIC COMMENTS CLASSIFICATION NLP PROJECT (BLOG POST)	
+●	Developed an ML model that implements text vectorization and multilabel classification pipeline to classify comments for toxicity. Improved precision and recall scores for very imbalance dataset. 
+BITCOIN RISK ASSET ANALYSIS (JUPYTER NOTEBOOK)	
+●	Detailed analysis of the performance of Bitcoin as an investment asset compared to Gold and the S&P 500. The analysis uses historical price data of each asset to characterize the volatility and ROI. 
+
+CERTIFICATION AND COURSES
+
+➢	Data Scientist Associate Certification - DataCamp   	Jan 2023
+➢	Professional Data Analyst Certification - DataCamp     	July 2022 
+➢	60 courses (~240 hours total) taken in the DataCamp platform (link to my profile)
