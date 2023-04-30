@@ -12,8 +12,8 @@ if 'generated' not in st.session_state:
 if 'past' not in st.session_state:
     st.session_state['past'] = []
 
-attrs = ['resume', 'job_desc', 'uploaded', 'is_running', 'key']
-values = [None, None, False, True, 0]
+attrs = ['uploaded', 'is_running', 'key']
+values = [False, True, 0]
 
 for attr, value in zip(attrs, values):
     if attr not in st.session_state:
@@ -44,34 +44,33 @@ def get_text(message: str, key: str = str(st.session_state.key)):
     st.session_state.key += 1
     return input_text
 
-if not st.session_state.job_desc:
-    st.session_state.job_desc = get_text("Please paste the job description", "job_desc")
-    if st.session_state.job_desc:
-        output = interact("user", {'type': 'text', 'payload': st.session_state.job_desc})
-        st.session_state.past.append(st.session_state.job_desc)
-        st.session_state.generated.append(output)
-        message(output)
-        st.session_state.uploaded = True
+user_input = get_text("Please paste the job description", "job_desc")
 
-        if not st.session_state.resume:
-            st.session_state.resume = get_text("Please paste your resume", "resume")
-        
-        if st.session_state.resume:
-            if st.session_state.generated and st.session_state.is_running:
-                user_input = get_text("")
-                if user_input:
-                    output, st.session_state.is_running = interact("user", {'type': 'text', 'payload': user_input})
-                    st.session_state.past.append(user_input)
-                    st.session_state.generated.append(output)
-                    
-                    gen_len = len(st.session_state.generated)
-                    past_len = len(st.session_state.past)
-                    first = min(gen_len, past_len)
-                    for i in range(first):
-                        message(st.session_state.generated[i], key=str(i) + str(st.session_state.key) + "_message")
-                        message(st.session_state.past[i], is_user=True, key=str(i) + str(st.session_state.key) + "_user")
-                    for i in range(first, gen_len):
-                        message(st.session_state.generated[i], key=str(i) + str(st.session_state.key) + "_message")
-                    for i in range(first, past_len):
-                        message(st.session_state.past[i], key=str(i) + str(st.session_state.key) + "_user")
+if user_input:
+    output = interact("user", {'type': 'text', 'payload': st.session_state.job_desc})
+    st.session_state.past.append(st.session_state.job_desc)
+    st.session_state.generated.append(output)
+    message(output)
+    st.session_state.uploaded = True
+
+    st.session_state.resume = get_text("Please paste your resume", "resume")
+    
+    if st.session_state.resume:
+        if st.session_state.generated and st.session_state.is_running:
+            user_input = get_text("")
+            if user_input:
+                output, st.session_state.is_running = interact("user", {'type': 'text', 'payload': user_input})
+                st.session_state.past.append(user_input)
+                st.session_state.generated.append(output)
+                
+                gen_len = len(st.session_state.generated)
+                past_len = len(st.session_state.past)
+                first = min(gen_len, past_len)
+                for i in range(first):
+                    message(st.session_state.generated[i], key=str(i) + str(st.session_state.key) + "_message")
+                    message(st.session_state.past[i], is_user=True, key=str(i) + str(st.session_state.key) + "_user")
+                for i in range(first, gen_len):
+                    message(st.session_state.generated[i], key=str(i) + str(st.session_state.key) + "_message")
+                for i in range(first, past_len):
+                    message(st.session_state.past[i], key=str(i) + str(st.session_state.key) + "_user")
 
